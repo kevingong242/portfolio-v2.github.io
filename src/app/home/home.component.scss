@@ -1,0 +1,16 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left-side{
+        padding-right: 20px;
+    }
+    .right-side{
+        padding-left: 20px;
+        .self-image{
+            border-radius: 50%;
+            max-width: 450px;
+    
+        }
+    }
+}

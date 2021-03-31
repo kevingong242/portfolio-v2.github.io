@@ -1,17 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";  
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
 p{
+    font-family: "Roboto";
     margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playfair";
 }
 ul{
     list-style-type: none;
     padding: 0;
 }
-.container{
-    max-width: 960px;
+section{
+    max-width: 1140px; 
+    margin: 0 auto;
+    padding: 50px 15px;
 }
