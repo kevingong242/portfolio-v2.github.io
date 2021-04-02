@@ -7,9 +7,12 @@ section{
     }
     .right-side{
         padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .self-image{
             border-radius: 50%;
-            max-width: 450px;
+            max-width: 75%;
     
         }
     }

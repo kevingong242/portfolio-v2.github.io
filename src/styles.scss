@@ -19,5 +19,34 @@ ul{
 section{
     max-width: 1140px; 
     margin: 0 auto;
-    padding: 50px 15px;
+    padding: 50px 20px;
+}
+
+.container{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0;
+}
+
+.col{
+    padding: 0;
+}
+
+.section-title{
+    font-weight: bold;
+    margin-right: 50px;
+    text-align: left;
+    max-width: 15%;
+    width: 100%;
+    color: #3aa8ff;
+}
+
+.section-content-container{
+    max-width: 75%;
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
 }

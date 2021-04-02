@@ -1,0 +1,15 @@
+.section-content-container{
+    flex-direction: column;
+    .job-experience{
+        margin-bottom: 30px;
+        width: 100%;
+        .company-duration{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .job-company{
+                font-weight: bold;
+            }
+        }
+    }
+}
