@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import gsap from 'gsap';
 
 @Component({
   selector: 'app-root',
