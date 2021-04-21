@@ -2,6 +2,9 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    h1{
+        font-size: 4.5rem;
+    }
     .left-side{
         padding-right: 20px;
     }
@@ -14,6 +17,24 @@ section{
             border-radius: 50%;
             max-width: 75%;
     
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        .left-side{ 
+            text-align: center;
+            padding: 0;
+        }
+        .right-side{
+            margin: 0;
+            padding: 0;
+            .self-image{
+                max-width: 50%;
+            }
         }
     }
 }
