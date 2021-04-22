@@ -52,7 +52,27 @@ section{
 }
 
 @media only screen and (max-width: 1000px){
+    section{
+        padding: 20px;
+    }
     .container{
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        .row{
+            flex-direction: column;
+        }
+        .section-title{
+            margin-right: 0;
+            margin-bottom: 30px;
+            max-width: 100%;
+            font-size: 32px;
+        }
+        .section-content-container{
+            max-width: 100%;
+        }
     }
 }

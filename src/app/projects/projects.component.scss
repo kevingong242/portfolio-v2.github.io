@@ -13,3 +13,15 @@ a{
         margin: 3px 3px 3px 0;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .single-project{
+        width: 100%;
+        .project-description{
+            width: 100%;
+        }
+    }
+    .tech-used{
+        flex-wrap: wrap;
+    }
+}
