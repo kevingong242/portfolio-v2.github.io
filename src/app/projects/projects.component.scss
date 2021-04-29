@@ -1,16 +1,30 @@
+.section-content-container{
+    flex-direction: column;
+}
+.single-project{
+    margin-bottom: 30px;
+}
 .project-name{
     font-weight: bold;
+    width: 100%;
 }
 a{
     color: #333;
 }
 .tech-used{
     display: flex;
+    i{
+        font-size: 34px;
+        padding: 5px 10px;
+    }
     p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: solid 1px #333;
         padding: 2px 5px;
         text-align: center;
-        margin: 3px 3px 3px 0;
+        margin: 5px 10px;
     }
 }
 

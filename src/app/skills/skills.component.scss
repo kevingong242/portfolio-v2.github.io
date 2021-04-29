@@ -1,3 +1,13 @@
 .skills-category{
     font-weight: bold;
+    font-size: 20px;
+}
+.individual-skill{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    i{
+        margin-left: 5px;
+        font-size: 32px;
+    }
 }
