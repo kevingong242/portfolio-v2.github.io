@@ -1,4 +1,6 @@
 <!doctype html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -9,6 +11,72 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
 </head>
 <body>
-  <app-root></app-root>
+    <section class="home-section">
+        <div class="container left-side animate__fadeInDownBig">
+            <h1>Hey there!</h1>
+            <h1>I'm Kevin.</h1>
+            <p>I am a web developer based in Los Angeles</p>
+        </div>
+        <div class="container right-side">
+            <img src="/assets/profilepic.png" alt="a picture of myself at San Francisco" class="self-image">
+        </div>
+    </section>
 </body>
 </html>
+
+
+<style>
+    section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: 4.5rem;
+    }
+    .left-side{
+        padding-right: 20px;
+    }
+    .right-side{
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .self-image{
+            border-radius: 50%;
+            max-width: 75%;
+    
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        .left-side{ 
+            text-align: center;
+            padding: 0;
+        }
+        .right-side{
+            margin: 0;
+            padding: 0;
+            .self-image{
+                max-width: 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    section{
+        h1{
+            font-size: 3rem;
+        }
+        .right-side{
+            .self-image{
+                max-width: 100%;
+            }
+        }
+    }
+}
+</style>
